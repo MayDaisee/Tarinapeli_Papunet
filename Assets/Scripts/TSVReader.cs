@@ -37,7 +37,7 @@ public class TSVReader : MonoBehaviour
     
     void ReadTSV()
     {
-        string[] lines = dynamicText.text.Split((char)KeyCode.Tab);
+        string[] lines = dynamicText.text.Split(";");
 
  
         foreach (string line in lines)
