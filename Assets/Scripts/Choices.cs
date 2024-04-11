@@ -47,6 +47,11 @@ public class Choices : MonoBehaviour
             {
                 readerScript.ChangeText();
             }
+
+            else
+            {
+                Debug.LogWarning("No reader script in tagged object");
+            }
         }
 
     }
