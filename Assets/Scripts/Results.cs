@@ -20,15 +20,15 @@ public class Results : MonoBehaviour
         {
 
             resultTXT.text =
-                "Mets‰ on jo syksyinen, viile‰ ja " + choices[0] + ". \n" +
-                "Vaan sienet kasvavat sateessa m‰ntymets‰n " + choices[1] + ". \n" +
-                "Ker‰‰n koriini sieni‰, kauniita, suuria, " + choices[2] + ". \n" +
-                "Tatti helppo ja herkullinen, oloni rauhaisa, " + choices[3] + ". \n" +
-                "Suppilovahvero sammaleella seisoo, sade ropisee ja tuuli " + choices[4] + ". \n" +
-                "Kantarelli piilossa pysyy, niiden lˆyt‰minen onnea " + choices[5] + ". \n" +
-                "Jo p‰‰ttyy retki sienien mailla, v‰sy‰ alan mets‰n el‰inten " + choices[6] + ". \n" +
-                "Mets‰‰ katson ja hiljaa kiit‰n, retken mieleni muistoihin " + choices[7] + ". \n" +
-                "Muistan mets‰n, sen tarinan syv‰n, rauhan tunteen ja oloni " + choices[8] + ".";
+                "Mets‰ on jo syksyinen, \nviile‰ ja " + choices[0] + ". \n\n" +
+                "Vaan sienet kasvavat sateessa, \nm‰ntymets‰n " + choices[1] + ". \n\n" +
+                "Ker‰‰n koriini sieni‰, \nkauniita, suuria, " + choices[2] + ". \n\n" +
+                "Tatti helppo ja herkullinen, \noloni rauhaisa, " + choices[3] + ". \n\n" +
+                "Suppilovahvero sammaleella seisoo, \nsade ropisee ja tuuli " + choices[4] + ". \n" +
+                "Kantarelli piilossa pysyy, \nniiden lˆyt‰minen onnea " + choices[5] + ". \n\n" +
+                "Jo p‰‰ttyy retki sienien mailla, \nv‰sy‰ alan mets‰n el‰inten " + choices[6] + ". \n\n" +
+                "Mets‰‰ katson ja hiljaa kiit‰n, \nretken mieleni muistoihin " + choices[7] + ". \n\n" +
+                "Muistan mets‰n, sen tarinan syv‰n, \nrauhan tunteen ja oloni " + choices[8] + ".";
 
 
         }

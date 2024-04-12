@@ -67,20 +67,20 @@ public class TSVReader : MonoBehaviour
         }
 
 
-        else
+        else                                                                             //muussa tapauksessa 
         {
-            GameObject[] readers = GameObject.FindGameObjectsWithTag("Reader");
+            GameObject[] readers = GameObject.FindGameObjectsWithTag("Reader");          //Tehd‰‰n array nimelt‰ readers, joka ottaa itseens‰ kaikki objektit jotka ovat t‰g‰tty vastaavalla tavalla
 
-            foreach (GameObject reader in readers)
+            foreach (GameObject reader in readers)                                       //Jotta vaikutetaan jokaiseen instanssiin niist‰
             {
 
-                reader.SetActive(false);
+                reader.SetActive(false);                                                 //T‰m‰ tapahtuu
 
             }
 
-           if (results != null)
+            if (results != null)                                                          //Mik‰li nappi josta t‰m‰ kutsutaan sis‰lt‰‰ m‰‰rittelem‰mme gameobjectin "results"
             {
-                results.SetActive(true);
+                results.SetActive(true);                                                 //Se aktivoituu
             }
 
         }
