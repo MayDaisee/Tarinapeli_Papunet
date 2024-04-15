@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/.DS_Store
+Assets/Grafiikat/.DS_Store
+Assets/Grafiikat/Keskiyön Kauheudet/.DS_Store
+Assets/Grafiikat/Päivä Rannalla/.DS_Store
+Assets/Grafiikat/Syksyinen Metsäretki/.DS_Store
+Assets/TextMesh Pro/.DS_Store
