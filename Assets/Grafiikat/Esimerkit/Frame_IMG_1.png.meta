@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 050b61c603df052498bc50570e24c7e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8674604851010539947
+    second: plentjut (6)_0
+  - first:
+      213: -511960074020349204
+    second: plentjut (6)_1
+  - first:
+      213: -5928742688821974941
+    second: plentjut (6)_2
+  - first:
+      213: -7724874850501339403
+    second: plentjut (6)_3
+  - first:
+      213: 5554173522030961908
+    second: plentjut (6)_4
+  - first:
+      213: -5820861226044386242
+    second: plentjut (6)_5
+  - first:
+      213: 1556652269876352943
+    second: plentjut (6)_6
+  - first:
+      213: -8686825053247001398
+    second: plentjut (6)_7
+  - first:
+      213: -2732568145956284818
+    second: plentjut (6)_8
+  - first:
+      213: -7501468227997325139
+    second: plentjut (6)_9
+  - first:
+      213: -1655677096992992414
+    second: plentjut (6)_10
+  - first:
+      213: -4500045417393831491
+    second: plentjut (6)_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plentjut (6)_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1094
+        width: 157
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ee2a819dc9d9780800000000000000
+      internalID: -8674604851010539947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 887
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea95d0760725e8f0800000000000000
+      internalID: -511960074020349204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 710
+        width: 146
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3686214bfefd8bda0800000000000000
+      internalID: -5928742688821974941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 479
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d489604bbbc490800000000000000
+      internalID: -7724874850501339403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 396
+        width: 161
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f429891463641d40800000000000000
+      internalID: 5554173522030961908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_5
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 443
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3497ce1e85283fa0800000000000000
+      internalID: -5820861226044386242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_6
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 335
+        width: 175
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa719c0fdf65a9510800000000000000
+      internalID: 1556652269876352943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 217
+        width: 49
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accaf3b83a2327780800000000000000
+      internalID: -8686825053247001398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 339
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e665abfbfb7f31ad0800000000000000
+      internalID: -2732568145956284818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_9
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 317
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da82750246e65e790800000000000000
+      internalID: -7501468227997325139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_10
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 159
+        width: 152
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2639bf2d37ad509e0800000000000000
+      internalID: -1655677096992992414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plentjut (6)_11
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 16
+        width: 45
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1cd1ff880ac81c0800000000000000
+      internalID: -4500045417393831491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      plentjut (6)_0: -8674604851010539947
+      plentjut (6)_1: -511960074020349204
+      plentjut (6)_10: -1655677096992992414
+      plentjut (6)_11: -4500045417393831491
+      plentjut (6)_2: -5928742688821974941
+      plentjut (6)_3: -7724874850501339403
+      plentjut (6)_4: 5554173522030961908
+      plentjut (6)_5: -5820861226044386242
+      plentjut (6)_6: 1556652269876352943
+      plentjut (6)_7: -8686825053247001398
+      plentjut (6)_8: -2732568145956284818
+      plentjut (6)_9: -7501468227997325139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
