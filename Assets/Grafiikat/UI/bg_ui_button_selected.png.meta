@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_ui_button_selected_0: -2799563731841954475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
