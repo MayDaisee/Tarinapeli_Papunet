@@ -41,7 +41,7 @@ public class Choices : MonoBehaviour
 
         foreach (GameObject reader in readers)
         {
-            TSVReader readerScript = reader.GetComponent<TSVReader>();
+            TxtReader readerScript = reader.GetComponent<TxtReader>();
 
             if (readerScript != null)
             {

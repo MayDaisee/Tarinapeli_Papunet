@@ -5,9 +5,9 @@ using System;
 using TMPro;
 using UnityEngine.UI;
 
-public class TSVReader : MonoBehaviour
+public class TxtReader : MonoBehaviour
 {
-    public static TSVReader instance;         //T‰ll‰ toiset scriptit p‰‰see k‰siksi t‰h‰n koodiin     
+    public static TxtReader instance;         //T‰ll‰ toiset scriptit p‰‰see k‰siksi t‰h‰n koodiin     
 
     TextMeshProUGUI tmpComponent;             //TextMeshPro on se varsinainen tekstikomponentti, johon t‰ll‰ scriptill‰ vaikutetaan
 
@@ -80,7 +80,7 @@ public class TSVReader : MonoBehaviour
 
             if (results != null)                                                          //Mik‰li nappi josta t‰m‰ kutsutaan sis‰lt‰‰ m‰‰rittelem‰mme gameobjectin "results"
             {
-                results.SetActive(true);                                                 //Se aktivoituu
+                results.SetActive(true);                                                  //Se aktivoituu
             }
 
         }

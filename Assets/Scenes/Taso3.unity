@@ -5094,7 +5094,7 @@ GameObject:
   - component: {fileID: 1100983781}
   - component: {fileID: 1100983780}
   m_Layer: 5
-  m_Name: BTNLeipurinUnelma
+  m_Name: BTNLeipuri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8059,7 +8059,7 @@ GameObject:
   - component: {fileID: 2054789541}
   - component: {fileID: 2054789540}
   m_Layer: 5
-  m_Name: "BTNSyksyinenMets\xE4retki"
+  m_Name: BTNSyksy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
