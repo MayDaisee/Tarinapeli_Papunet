@@ -1,0 +1,8 @@
+Olipa kerran hylätty talo _____.;
+Talo oli vanha ja ränsistynyt. Sen seinistä _____.;
+Huhujen mukaan talossa oli asunut _____ sata vuotta sitten.;
+Sen jälkeen siellä oli asunut eräs _____, mutta talo oli ollut tyhjillään jo vuosia.;
+Vaikka talo oli tyhjä, se ei ollut hiljainen. Aina keskiyöllä talosta kuului _____.;
+Keskiyön kauheudet vetivät ihmisiä puoleensa, ja eräänä yönä joukko nuoria kokoontui hylätyllä talolla. Nuoret olivat _____, kun he odottivat keskiyötä.;
+Viimein kello löi kaksitoista. Äänet alkoivat kuulua, ja _____.;
+Yksi nuorista kurkisti sisään ja sanoi kavereilleen: ”Ette ikinä usko, mutta talossa on _____.”

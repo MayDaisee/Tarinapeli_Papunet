@@ -59,7 +59,7 @@ public class TxtReader : MonoBehaviour
     public void ChangeText()                                            //Funktio, jonka kutsumme klikkaamalla (Choices-scriptist‰)
     {
 
-        if (ids.Count > 1)                                              //Jos listassa on enemm‰n kuin yksi item
+        if (ids.Count >= 1)                                             //Jos listassa on enemm‰n kuin yksi item
         {
             ids.RemoveAt(0);                                            //Poistamme 0-kohdassa, eli t‰m‰nhetkisen rivin listasta
 
@@ -81,6 +81,7 @@ public class TxtReader : MonoBehaviour
             if (results != null)                                                          //Mik‰li nappi josta t‰m‰ kutsutaan sis‰lt‰‰ m‰‰rittelem‰mme gameobjectin "results"
             {
                 results.SetActive(true);                                                  //Se aktivoituu
+                print("Pit‰s olla saatana");
             }
 
         }
