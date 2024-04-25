@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: 26838c1cca000944f82a6be5d00cfaf7, type: 3}
+  dynamicText: {fileID: 4900000, guid: 6cd18fc650762cd448935de996f94db3, type: 3}
   results: {fileID: 1617426743}
 --- !u!1 &105027469
 GameObject:
@@ -1422,6 +1422,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247991570}
   m_CullTransparentMesh: 1
+--- !u!1 &282999823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 282999825}
+  - component: {fileID: 282999824}
+  m_Layer: 0
+  m_Name: TestObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &282999824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282999823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c3d4488e64c8d846acfe70560530cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dynamicText: {fileID: 4900000, guid: e6098aee390152748815900f41129426, type: 3}
+  myAnswers:
+    answers: []
+--- !u!4 &282999825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282999823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294409084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,7 +1739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: 0cd2fcb0f4f998c419da0b13d47aa02d, type: 3}
+  dynamicText: {fileID: 4900000, guid: 7f14bcfde47706b478ae99a8fa41cfe4, type: 3}
   results: {fileID: 1617426743}
 --- !u!1 &345285601
 GameObject:
@@ -2018,7 +2065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: e8b42c2a7122d3046800ce6d12b1d273, type: 3}
+  dynamicText: {fileID: 4900000, guid: 63a08a020eddc944cae9adf727bbc571, type: 3}
   results: {fileID: 1617426743}
 --- !u!114 &414233494
 MonoBehaviour:
@@ -2236,7 +2283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: e8b42c2a7122d3046800ce6d12b1d273, type: 3}
+  dynamicText: {fileID: 4900000, guid: de42cb8c1586c1f47a1e99aebc1d9075, type: 3}
   results: {fileID: 1617426743}
 --- !u!1 &474117009
 GameObject:
@@ -7365,6 +7412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff05ee33bdaac8d46ad1b66221a03564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tarina: 1
 --- !u!114 &1506817423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7632,6 +7680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff05ee33bdaac8d46ad1b66221a03564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tarina: 0
 --- !u!1 &1624090075
 GameObject:
   m_ObjectHideFlags: 0
@@ -8264,7 +8313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: e8b42c2a7122d3046800ce6d12b1d273, type: 3}
+  dynamicText: {fileID: 4900000, guid: 2cbdc3858fd28664fbc5a121dc125054, type: 3}
   results: {fileID: 1617426743}
 --- !u!114 &1746326681
 MonoBehaviour:
@@ -8799,7 +8848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: ee9d4061bdb9e4041b7afdd513478189, type: 3}
+  dynamicText: {fileID: 4900000, guid: d5a3c4484afa66347ba577fc8dcd7241, type: 3}
   results: {fileID: 1617426743}
 --- !u!1 &1925771524
 GameObject:
@@ -9422,3 +9471,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1477974464}
   - {fileID: 580973179}
+  - {fileID: 282999825}
