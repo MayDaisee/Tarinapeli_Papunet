@@ -38,6 +38,11 @@ public class Results : MonoBehaviour
         {
             Ranta();
         }
+
+        if (tarina == Tarina.keskiyö)
+        {
+            Keskiyö();
+        }
     }
 
     public void Syksy()
@@ -71,16 +76,37 @@ public class Results : MonoBehaviour
             resultTXT.text =
                 "Herään " + choices[0] + " aamuun, ja päätän lähteä uimarannalle.\n" +
                 "Ensin minun täytyy kuitenkin " + choices[1] + ". \n" +
-                "Sen jälkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, " + choices[2] + " ja välipalaa.\n" +
+                "Sen jälkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, " + choices[2] + " ja välipalaa.\n\n" +
                 "Välipalaksi otan " + choices[3] + ".\n" +
                 "Rannalle on lyhyt matka. Päätän mennä sinne " + choices[4] + ".\n" +
                 "Ennen lähtöä kysyn vielä, lähtisikö " + choices[5] + " mukaani.\n\n" +
                 "Saavumme rannalle. Huomaamme heti, että siellä on paljon " + choices[6] + ".\n" +
                 "Löydämme kuitenkin paikan " + choices[7] + ".\n" +
-                "Jätämme tavaramme paikallemme ja lähdemme " + choices[8] + ".\n" +
+                "Jätämme tavaramme paikallemme ja lähdemme " + choices[8] + ".\n\n" +
                 "Välillä " + choices[9] + " ja syömme välipalaa.\n" +
                 "Meillä on hauskaa! Aika kuluu nopeasti, ja yhtäkkiä olemme olleet rannalla " + choices[10] + ".\n" +
                 "Päätän kysyä: ”Olisiko jo aika lähteä " + choices[11] + "?";
+
+        }
+    }
+
+    public void Keskiyö()
+    {
+        List<string> choices = Choices.instance.choices;
+
+        for (int i = 0; i < choices.Count; i++)
+        {
+
+            resultTXT.text =
+                "Olipa kerran hylätty talo " + choices[0] + ".\n" +
+                "Talo oli vanha ja ränsistynyt. Sen seinistä " + choices[1] + ".\n" +
+                "Huhujen mukaan talossa oli asunut " + choices[2] + "sata vuotta sitten.\n\n" +
+                "Sen jälkeen siellä oli asunut eräs " + choices[3] + ", mutta talo oli ollut tyhjillään jo vuosia.\n" +
+                "Vaikka talo oli tyhjä, se ei ollut hiljainen. Aina keskiyöllä talosta kuului " + choices[4] + ".\n\n" +
+                "Keskiyön kauheudet vetivät ihmisiä puoleensa, ja eräänä yönä joukko nuoria kokoontui hylätyllä talolla.\n" +
+                "Nuoret olivat " + choices[5] + ", kun he odottivat keskiyötä." + ".\n\n" +
+                "Viimein kello löi kaksitoista. Äänet alkoivat kuulua, ja " + choices[6] + ".\n" +
+                "Yksi nuorista kurkisti sisään ja sanoi kavereilleen: ”Ette ikinä usko, mutta talossa on " + choices[7] + ".\n";
 
         }
     }
