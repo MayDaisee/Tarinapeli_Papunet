@@ -1,0 +1,10 @@
+page,opt1,opt2,opt3,opt4;
+1,myrskyinen,sumuinen,sateinen,vetinen;
+2,sammaleella,siimeksessä,juuressa,katveessa;
+3,siistejä,pieniä,hentoja,ruskeita;
+4,onnellinen,kylläinen,syksyinen,yksinäinen;
+5,vinkuu,puhkuu,vihmoo,tuivertaa;
+6,pyytää,kysyy,vaatii,anelee;
+7,vierellä,kanssa,majalla,lailla;
+8,liitän,liidän,siirrän,pyydän;
+9,sydämellisen,vahvan,hyvän,väkevän;

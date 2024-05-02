@@ -1935,7 +1935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: 26838c1cca000944f82a6be5d00cfaf7, type: 3}
+  dynamicText: {fileID: 4900000, guid: f4162c701510e2b41b4b7f7456544dff, type: 3}
   results: {fileID: 1506817420}
 --- !u!114 &399276954
 MonoBehaviour:
@@ -2741,7 +2741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: 0cd2fcb0f4f998c419da0b13d47aa02d, type: 3}
+  dynamicText: {fileID: 4900000, guid: bc230f70b84f3a44bb2c4a155844095d, type: 3}
   results: {fileID: 1506817420}
 --- !u!114 &528983698
 MonoBehaviour:
@@ -3438,7 +3438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: e8b42c2a7122d3046800ce6d12b1d273, type: 3}
+  dynamicText: {fileID: 4900000, guid: a0bbf7f81dc97d94983294e9e1ac8d93, type: 3}
   results: {fileID: 1506817420}
 --- !u!114 &611683040
 MonoBehaviour:
@@ -3627,7 +3627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ec79e9b48e93344a864aaeb704e459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamicText: {fileID: 4900000, guid: ee9d4061bdb9e4041b7afdd513478189, type: 3}
+  dynamicText: {fileID: 4900000, guid: b8e72e1ae82ab1a4a837ad0168de5938, type: 3}
   results: {fileID: 1506817420}
 --- !u!114 &637768588
 MonoBehaviour:
@@ -4004,8 +4004,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Restart, Assembly-CSharp
+      - m_Target: {fileID: 580973180}
+        m_TargetAssemblyTypeName: AppManager, Assembly-CSharp
         m_MethodName: DoRestart
         m_Mode: 1
         m_Arguments:
@@ -6819,7 +6819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff05ee33bdaac8d46ad1b66221a03564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tarina: 0
+  tarina: 3
 --- !u!114 &1506817423
 MonoBehaviour:
   m_ObjectHideFlags: 0

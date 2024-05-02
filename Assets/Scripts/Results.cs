@@ -43,6 +43,11 @@ public class Results : MonoBehaviour
         {
             Keskiyö();
         }
+
+        if (tarina == Tarina.leipuri)
+        {
+            Leipuri();
+        }
     }
 
     public void Syksy()
@@ -106,8 +111,29 @@ public class Results : MonoBehaviour
                 "Keskiyön kauheudet vetivät ihmisiä puoleensa, ja eräänä yönä joukko nuoria kokoontui hylätyllä talolla.\n" +
                 "Nuoret olivat " + choices[5] + ", kun he odottivat keskiyötä." + ".\n\n" +
                 "Viimein kello löi kaksitoista. Äänet alkoivat kuulua, ja " + choices[6] + ".\n" +
-                "Yksi nuorista kurkisti sisään ja sanoi kavereilleen: ”Ette ikinä usko, mutta talossa on " + choices[7] + ".\n";
+                "Yksi nuorista kurkisti sisään ja sanoi kavereilleen: ”Ette ikinä usko, mutta talossa on " + choices[7] + ".";
 
         }
+    }
+
+    public void Leipuri()
+    {
+        List<string> choices = Choices.instance.choices;
+
+        for (int i = 0; i < choices.Count; i++)
+        {
+
+            resultTXT.text =
+            "Keittiössä kököttää kekseliäs leipuri,\nmaailman makeimpien herkkujen " + choices[0] + ".\n\n" +
+            "Mitä seuraavaksi leipoisin?\nMistä herkkusuille " + choices[1] + ".\n\n" + 
+            "Leipoisinko keksin suklaisen\nvai kuppikakun " + choices[2] + ".\n\n\n" + 
+            "Leipuri keksii idean:\n”Teen kakun oikein " + choices[3] + "\".\n\n" +
+            "Sokeria, munia, jauhoja,\nvoita, marenkia, " + choices[4] + ".\n\n" +
+            "Oikein paljon kerroksia,\nripaus rakkautta ja " + choices[5] + ".\n\n" +
+            "Syntyy resepti ainutkertainen,\ntäytekakku " + choices[6] + ".\n\n" +
+            "Nyt leipurin unelma todelta näyttää,\nse mahat ja mielet ilolla " + choices[7] + ".";
+
+        }
+
     }
 }
