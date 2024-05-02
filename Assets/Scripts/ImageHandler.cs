@@ -5,12 +5,20 @@ using UnityEngine.UI;
 using Image = UnityEngine.UI.Image;
 
 public class ImageHandler : MonoBehaviour
+
 {
+    public static ImageHandler instance;
+
     public Image imageObject;
     public GameObject answers;
     public List<Sprite> imgs = new();
 
-    private void Start()
+    public void Awake()
+    {
+        instance = this;
+    }
+
+    public void Start()
     {
         IMGUpdate();
 
@@ -23,7 +31,7 @@ public class ImageHandler : MonoBehaviour
     }
 
 
-    void IMGUpdate()
+    public void IMGUpdate()
     {
         if (imgs.Count > 0)
         {

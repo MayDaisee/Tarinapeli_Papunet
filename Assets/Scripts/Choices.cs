@@ -10,10 +10,10 @@ public class Choices : MonoBehaviour
 {
     public static Choices instance;
 
-    public Image BgImage;
+    //public Image BgImage;
 
     public List<string> choices = new();
-    public List<Sprite> Bgs = new();
+    //public List<Sprite> Bgs = new();
 
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class Choices : MonoBehaviour
 
     private void Start()
     {
-        BGUpdate();
+        //BGUpdate();
 
         Button[] buttons = GetComponentsInChildren<Button>();
 
@@ -31,7 +31,8 @@ public class Choices : MonoBehaviour
             TextMeshProUGUI choice = button.GetComponentInChildren<TextMeshProUGUI>();
             button.onClick.AddListener(() => AddToChoices(choice.text));
             button.onClick.AddListener(() => TextChange());
-            button.onClick.AddListener(() => BGChange());
+            //button.onClick.AddListener(() => BGChange());
+            button.onClick.AddListener(() => ImageHandler.instance.IMGChange());
         }
     }
 
@@ -63,27 +64,27 @@ public class Choices : MonoBehaviour
 
     }
 
-    void BGUpdate()
-    {
-        if (Bgs.Count > 0)
-        {
-            BgImage.sprite = Bgs[0];
-            print("Image changed");
-        }
+    //void BGUpdate()
+    //{
+    //    if (Bgs.Count > 0)
+    //    {
+    //        BgImage.sprite = Bgs[0];
+    //        print("Image changed");
+    //    }
 
-        else
-        {
-            Debug.LogError("BG list not configd");
-        }
-    }
+    //    else
+    //    {
+    //        Debug.LogError("BG list not configd");
+    //    }
+    //}
 
-    public void BGChange()
-    {
-        if (Bgs.Count > 1)
-        {
-            Bgs.RemoveAt(0);
-            BGUpdate();
-        }
-    }
+    //public void BGChange()
+    //{
+    //    if (Bgs.Count > 1)
+    //    {
+    //        Bgs.RemoveAt(0);
+    //        BGUpdate();
+    //    }
+    //}
 
 }

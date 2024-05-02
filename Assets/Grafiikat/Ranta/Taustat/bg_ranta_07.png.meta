@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_ranta_07_0: -4489253532041099013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

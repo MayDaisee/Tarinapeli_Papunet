@@ -4064,6 +4064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623792630}
   - component: {fileID: 623792631}
+  - component: {fileID: 623792632}
   m_Layer: 5
   m_Name: Answers
   m_TagString: Untagged
@@ -4108,9 +4109,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303bfe120f959b445b29edfb80ad08a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BgImage: {fileID: 1873791238}
   choices: []
-  Bgs:
+--- !u!114 &623792632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623792629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992a80c601feed458d3f85959cd66bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 1873791238}
+  answers: {fileID: 623792629}
+  imgs:
   - {fileID: -47580041468477097, guid: 7697cea48a153804fa617b33e427f09b, type: 3}
   - {fileID: -4456051457267943534, guid: 4cdc13303a321fd40b3eea6c6d3549dd, type: 3}
   - {fileID: -2313499300018766693, guid: 12ca6ee31f8b69944b151955d6cb0d93, type: 3}
@@ -5562,9 +5576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 303bfe120f959b445b29edfb80ad08a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BgImage: {fileID: 0}
   choices: []
-  Bgs: []
 --- !u!1 &1054705958
 GameObject:
   m_ObjectHideFlags: 0
