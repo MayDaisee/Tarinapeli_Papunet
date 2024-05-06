@@ -119,6 +119,148 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &32705415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 32705416}
+  - component: {fileID: 32705418}
+  - component: {fileID: 32705417}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &32705416
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32705415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617426744}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 427.32666, y: -1.1848145}
+  m_SizeDelta: {x: -930.1154, y: -67.630356}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &32705417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32705415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Mets\xE4 on jo syksyinen, viile\xE4 ja ___.\r\nVaan sienet kasvavat sateessa
+    m\xE4ntymets\xE4n ___.\r\nKer\xE4\xE4n koriini sieni\xE4, kauniita, suuria, ___.\r\nTatti
+    helppo ja herkullinen, oloni rauhaisa, ___.\r\nSuppilovahvero sammaleella seisoo,
+    sade ropisee ja tuuli ___.\r\nKantarelli piilossa pysyy, niiden l\xF6yt\xE4minen
+    onnea ___.\r\nJo p\xE4\xE4ttyy retki sienien mailla, v\xE4sy\xE4 alan mets\xE4n
+    el\xE4inten ___.\r\nMets\xE4\xE4 katson ja hiljaa kiit\xE4n, retken mieleni muistoihin
+    ___.\r\nMuistan mets\xE4n, sen tarinan syv\xE4n, rauhan tunteen ja oloni ___."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0664b50dcd5ecdf40a9e7e3f4efdcd7f, type: 2}
+  m_sharedMaterial: {fileID: -1684292674057279271, guid: 0664b50dcd5ecdf40a9e7e3f4efdcd7f, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190097
+  m_fontColor: {r: 0.066037714, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 42
+  m_fontSizeBase: 42
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 10
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 1196182028}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 25.210571, y: 0, z: 25.21051, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &32705418
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32705415}
+  m_CullTransparentMesh: 1
 --- !u!1 &52201760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,12 +2154,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371634616}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b6f27ece2348e044b6f345b153f9d8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 2
+  timer: 0
 --- !u!225 &371634619
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2025,8 +2168,8 @@ CanvasGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371634616}
-  m_Enabled: 0
-  m_Alpha: 1
+  m_Enabled: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -2083,6 +2226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 2
+  timer: 0
 --- !u!225 &394429569
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6337,8 +6481,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 164, y: -1.1848145}
-  m_SizeDelta: {x: -486.7662, y: -67.6304}
+  m_AnchoredPosition: {x: -400.84503, y: -1.1848145}
+  m_SizeDelta: {x: -939.69006, y: -67.630356}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1196182028
 MonoBehaviour:
@@ -6360,18 +6504,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Her\xE4\xE4n <u><color=\"white\">_______</color></u> aamuun, ja p\xE4\xE4t\xE4n
-    l\xE4hte\xE4 uimarannalle.;\r\nEnsin minun t\xE4ytyy kuitenkin <u><color=\"white\">_______</color></u>.;\r\nSen
-    j\xE4lkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, <u><color=\"white\">_______</color></u>
-    ja v\xE4lipalaa.;\r\nV\xE4lipalaksi otan <u><color=\"white\">_______</color></u>.;\r\nRannalle
-    on lyhyt matka. P\xE4\xE4t\xE4n menn\xE4 sinne <u><color=\"white\">_______</color></u>.;\r\nEnnen
-    l\xE4ht\xF6\xE4 kysyn viel\xE4, l\xE4htisik\xF6 <u><color=\"white\">_______</color></u>
-    mukaani.;\r\nSaavumme rannalle. Huomaamme heti, ett\xE4 siell\xE4 on paljon <u><color=\"white\">_______</color></u>.;\r\nL\xF6yd\xE4mme
-    kuitenkin paikan <u><color=\"white\">_______</color></u>.;\r\nJ\xE4t\xE4mme tavaramme
-    paikallemme ja l\xE4hdemme <u><color=\"white\">_______</color></u>.;\r\nV\xE4lill\xE4
-    <u><color=\"white\">_______</color></u> ja sy\xF6mme v\xE4lipalaa.;\r\nMeill\xE4
-    on hauskaa! Aika kuluu nopeasti, ja yht\xE4kki\xE4 olemme olleet rannalla <u><color=\"white\">_______</color></u>.;\r\nP\xE4\xE4t\xE4n
-    kysy\xE4: \u201DOlisiko jo aika l\xE4hte\xE4 <u><color=\"white\">_______</color></u>?\u201D"
+  m_text: "Mets\xE4 on jo syksyinen, viile\xE4 ja ___.\r\nVaan sienet kasvavat sateessa
+    m\xE4ntymets\xE4n ___.\r\nKer\xE4\xE4n koriini sieni\xE4, kauniita, suuria, ___.\r\nTatti
+    helppo ja herkullinen, oloni rauhaisa, ___.\r\nSuppilovahvero sammaleella seisoo,
+    sade ropisee ja tuuli ___.\r\nKantarelli piilossa pysyy, niiden l\xF6yt\xE4minen
+    onnea ___.\r\nJo p\xE4\xE4ttyy retki sienien mailla, v\xE4sy\xE4 alan mets\xE4n
+    el\xE4inten ___.\r\nMets\xE4\xE4 katson ja hiljaa kiit\xE4n, retken mieleni muistoihin
+    ___.\r\nMuistan mets\xE4n, sen tarinan syv\xE4n, rauhan tunteen ja oloni ___."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0664b50dcd5ecdf40a9e7e3f4efdcd7f, type: 2}
   m_sharedMaterial: {fileID: -1684292674057279271, guid: 0664b50dcd5ecdf40a9e7e3f4efdcd7f, type: 2}
@@ -6398,10 +6537,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.65
-  m_fontSizeBase: 34
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -6416,8 +6555,8 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 32705417}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
   m_ActiveFontFeatures: 6e72656b
@@ -6436,7 +6575,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -325.33533, y: 0, z: -35.753845, w: 0}
+  m_margin: {x: 25.210571, y: 0, z: 25.21051, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8136,14 +8275,15 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1196182027}
+  - {fileID: 32705416}
   - {fileID: 786270578}
   - {fileID: 105027470}
   m_Father: {fileID: 371634617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 27.721924}
-  m_SizeDelta: {x: -600, y: -405.2143}
+  m_AnchoredPosition: {x: -7.29541, y: 27.721924}
+  m_SizeDelta: {x: -394.036, y: -405.2143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1617426745
 MonoBehaviour:
