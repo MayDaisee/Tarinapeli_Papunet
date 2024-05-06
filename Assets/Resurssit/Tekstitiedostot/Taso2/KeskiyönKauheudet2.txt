@@ -1,0 +1,10 @@
+Olipa kerran hylätty talo <u><color="white">_______</color></u> syrjäisessä kylässä.;
+Talo oli vanha ja ränsistynyt.\nSen seinistä kasvoi <u><color="white">_______</color></u>.;
+Huhujen mukaan <u><color="white">_______</color></u> oli asunut noitia sata vuotta sitten.;
+Sen jälkeen siellä oli asunut eräs <u><color="white">_______</color></u>,\nmutta talo oli ollut tyhjillään jo vuosia.;
+Vaikka talo oli tyhjä, se ei ollut hiljainen.\nAina keskiyöllä talosta kuului <u><color="white">_______</color></u> kolinaa.;
+Keskiyön kauheudet vetivät ihmisiä puoleensa,\nja eräänä yönä joukko nuoria kokoontui hylätyllä talolla.\n
+<u><color="white">_______</color></u> olivat peloissaan, kun he odottivat keskiyötä.;
+Viimein kello löi kaksitoista.\nÄänet alkoivat kuulua, ja <u><color="white">_______</color></u> nousi savua.;
+Yksi <u><color="white">_______</color></u> kurkisti sisään ja sanoi kavereilleen:\n”Ette ikinä usko, mutta talossa on kummitus.”
+
