@@ -79,18 +79,18 @@ public class Results : MonoBehaviour
         {
 
             resultTXT.text =
-                "Herään " + choices[0] + " aamuun, ja päätän lähteä uimarannalle.\n" +
-                "Ensin minun täytyy kuitenkin " + choices[1] + ". \n" +
-                "Sen jälkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, " + choices[2] + " ja välipalaa.\n\n" +
-                "Välipalaksi otan " + choices[3] + ".\n" +
-                "Rannalle on lyhyt matka. Päätän mennä sinne " + choices[4] + ".\n" +
-                "Ennen lähtöä kysyn vielä, lähtisikö " + choices[5] + " mukaani.\n\n" +
-                "Saavumme rannalle. Huomaamme heti, että siellä on paljon " + choices[6] + ".\n" +
-                "Löydämme kuitenkin paikan " + choices[7] + ".\n" +
-                "Jätämme tavaramme paikallemme ja lähdemme " + choices[8] + ".\n\n" +
-                "Välillä " + choices[9] + " ja syömme välipalaa.\n" +
-                "Meillä on hauskaa! Aika kuluu nopeasti, ja yhtäkkiä olemme olleet rannalla " + choices[10] + ".\n" +
-                "Päätän kysyä: ”Olisiko jo aika lähteä " + choices[11] + "?";
+                "Herään " + choices[0] + " aamuun,\nja päätän lähteä uimarannalle.\n" +
+                "Ensin minun täytyy kuitenkin " + choices[1] + ". \n\n" +
+                "Sen jälkeen pakkaan reppuni.\nTarvitsen mukaani ainakin uimapuvun, " + choices[2] + " ja välipalaa.\n" +
+                "Välipalaksi otan " + choices[3] + ".\n\n" +
+                "Rannalle on lyhyt matka.\nPäätän mennä sinne " + choices[4] + ".\n" +
+                "Ennen lähtöä kysyn vielä,\nlähtisikö " + choices[5] + " mukaani.\n\n" +
+                "Saavumme rannalle.\nHuomaamme heti, että siellä on paljon " + choices[6] + ".\n" +
+                "Löydämme kuitenkin paikan " + choices[7] + ".\n\n" +
+                "Jätämme tavaramme paikallemme\nja lähdemme " + choices[8] + ".\n" +
+                "Välillä " + choices[9] + " ja syömme välipalaa.\n\n" +
+                "Meillä on hauskaa!\nAika kuluu nopeasti,\nja yhtäkkiä olemme olleet rannalla " + choices[10] + ".\n" +
+                "Päätän kysyä:\n”Olisiko jo aika lähteä " + choices[11] + "?";
 
         }
     }
