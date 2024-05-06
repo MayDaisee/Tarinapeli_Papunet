@@ -1,8 +1,8 @@
-Keittiössä kököttää kekseliäs leipuri,\nmaailman makeimpien herkkujen <u>          <u>.;
-Mitä seuraavaksi leipoisin?\nMistä herkkusuille <u>          <u>?;
-Leipoisinko keksin suklaisen\nvai kuppikakun <u>          <u>?;
-Leipuri keksii idean:\n”Teen kakun oikein <u>          <u>!”;
-Sokeria, munia, jauhoja,\nvoita, marenkia, <u>          <u>.;
-Oikein paljon kerroksia,\nripaus rakkautta ja <u>          <u>.;
-Syntyy resepti ainutkertainen,\ntäytekakku <u>          <u>.;
-Nyt leipurin unelma todelta näyttää,\nse mahat ja mielet ilolla <u>          <u>.;
+Keittiössä kököttää kekseliäs leipuri,\nmaailman makeimpien herkkujen <u><color="white">_______</color></u>.;
+Mitä seuraavaksi leipoisin?\nMistä herkkusuille <u><color="white">_______</color></u>?;
+Leipoisinko keksin suklaisen\nvai kuppikakun <u><color="white">_______</color></u>?;
+Leipuri keksii idean:\n”Teen kakun oikein <u><color="white">_______</color></u>!”;
+Sokeria, munia, jauhoja,\nvoita, marenkia, <u><color="white">_______</color></u>.;
+Oikein paljon kerroksia,\nripaus rakkautta ja <u><color="white">_______</color></u>.;
+Syntyy resepti ainutkertainen,\ntäytekakku <u><color="white">_______</color></u>.;
+Nyt leipurin unelma todelta näyttää,\nse mahat ja mielet ilolla <u><color="white">_______</color></u>.;

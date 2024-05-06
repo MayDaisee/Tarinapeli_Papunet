@@ -346,7 +346,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 52201763}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &52201763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,9 +813,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1873791237}
-  - {fileID: 623792630}
-  - {fileID: 1469604655}
-  - {fileID: 1617426744}
+  - {fileID: 371634617}
   m_Father: {fileID: 1477974464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1869,7 +1879,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 304065365}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &304065365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2107,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345285601}
   m_CullTransparentMesh: 1
+--- !u!1 &371634616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371634617}
+  - component: {fileID: 371634619}
+  - component: {fileID: 371634618}
+  m_Layer: 5
+  m_Name: CanvasGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &371634617
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371634616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 623792630}
+  - {fileID: 1469604655}
+  - {fileID: 1617426744}
+  m_Father: {fileID: 146981266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &371634618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371634616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6f27ece2348e044b6f345b153f9d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
+  timer: 0
+--- !u!225 &371634619
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371634616}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &394429566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 394429567}
+  - component: {fileID: 394429569}
+  - component: {fileID: 394429568}
+  m_Layer: 5
+  m_Name: CanvasGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &394429567
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394429566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1909009606}
+  - {fileID: 1025488953}
+  - {fileID: 1506817421}
+  m_Father: {fileID: 1572793482}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &394429568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394429566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b6f27ece2348e044b6f345b153f9d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
+  timer: 0
+--- !u!225 &394429569
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394429566}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &401452402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,7 +2474,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 414233495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &414233495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2471,7 +2637,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 426732895}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &426732895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4064,7 +4242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 623792630}
   - component: {fileID: 623792631}
-  - component: {fileID: 623792632}
   m_Layer: 5
   m_Name: Answers
   m_TagString: Untagged
@@ -4090,7 +4267,7 @@ RectTransform:
   - {fileID: 426732893}
   - {fileID: 414233492}
   - {fileID: 1746326679}
-  m_Father: {fileID: 146981266}
+  m_Father: {fileID: 371634617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4110,32 +4287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   choices: []
---- !u!114 &623792632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623792629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4992a80c601feed458d3f85959cd66bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageObject: {fileID: 1873791238}
-  answers: {fileID: 623792629}
-  imgs:
-  - {fileID: -47580041468477097, guid: 7697cea48a153804fa617b33e427f09b, type: 3}
-  - {fileID: -4456051457267943534, guid: 4cdc13303a321fd40b3eea6c6d3549dd, type: 3}
-  - {fileID: -2313499300018766693, guid: 12ca6ee31f8b69944b151955d6cb0d93, type: 3}
-  - {fileID: 8315168184346347524, guid: 56ed2b7a93a4d65418f4a1ce0213b2b0, type: 3}
-  - {fileID: -829376491069762859, guid: 211c8c60b4408824eb4b6cb51a65521c, type: 3}
-  - {fileID: -829376491069762859, guid: 211c8c60b4408824eb4b6cb51a65521c, type: 3}
-  - {fileID: -4489253532041099013, guid: 9f164427fd303334f892a63288aee80e, type: 3}
-  - {fileID: 3048285793406698071, guid: 9420d0ff77d40a44ab83d82be32a4449, type: 3}
-  - {fileID: 713883784134348179, guid: ad9f833c34110f144a396f26ab54400b, type: 3}
-  - {fileID: 713883784134348179, guid: ad9f833c34110f144a396f26ab54400b, type: 3}
-  - {fileID: -5444865970741087908, guid: 7758e822bfa1fe1448247d4e15cd603d, type: 3}
 --- !u!1 &651825130
 GameObject:
   m_ObjectHideFlags: 0
@@ -5557,7 +5708,7 @@ RectTransform:
   - {fileID: 2086006939}
   - {fileID: 1651113153}
   - {fileID: 1326831425}
-  m_Father: {fileID: 1572793482}
+  m_Father: {fileID: 394429567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6613,7 +6764,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1275130759}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1275130759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6885,7 +7048,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1326831428}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1326831428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7503,7 +7678,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1977089590}
-  m_Father: {fileID: 146981266}
+  m_Father: {fileID: 371634617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7650,7 +7825,7 @@ RectTransform:
   - {fileID: 1393064453}
   - {fileID: 703911030}
   - {fileID: 180243400}
-  m_Father: {fileID: 1572793482}
+  m_Father: {fileID: 394429567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7888,9 +8063,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1729868857}
-  - {fileID: 1909009606}
-  - {fileID: 1025488953}
-  - {fileID: 1506817421}
+  - {fileID: 394429567}
   m_Father: {fileID: 1477974464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8105,7 +8278,7 @@ RectTransform:
   - {fileID: 32705416}
   - {fileID: 786270578}
   - {fileID: 105027470}
-  m_Father: {fileID: 146981266}
+  m_Father: {fileID: 371634617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8260,7 +8433,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1624090079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1624090079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8532,7 +8717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1651113156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1651113156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8842,7 +9039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1746326682}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1746326682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8919,6 +9128,7 @@ GameObject:
   - component: {fileID: 1873791237}
   - component: {fileID: 1873791239}
   - component: {fileID: 1873791238}
+  - component: {fileID: 1873791240}
   m_Layer: 5
   m_Name: BGImage
   m_TagString: Untagged
@@ -8983,6 +9193,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873791236}
   m_CullTransparentMesh: 1
+--- !u!114 &1873791240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873791236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992a80c601feed458d3f85959cd66bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageObject: {fileID: 1873791238}
+  answers: {fileID: 623792629}
+  imgs:
+  - {fileID: -47580041468477097, guid: 7697cea48a153804fa617b33e427f09b, type: 3}
+  - {fileID: -4456051457267943534, guid: 4cdc13303a321fd40b3eea6c6d3549dd, type: 3}
+  - {fileID: -2313499300018766693, guid: 12ca6ee31f8b69944b151955d6cb0d93, type: 3}
+  - {fileID: 8315168184346347524, guid: 56ed2b7a93a4d65418f4a1ce0213b2b0, type: 3}
+  - {fileID: -829376491069762859, guid: 211c8c60b4408824eb4b6cb51a65521c, type: 3}
+  - {fileID: -829376491069762859, guid: 211c8c60b4408824eb4b6cb51a65521c, type: 3}
+  - {fileID: -4489253532041099013, guid: 9f164427fd303334f892a63288aee80e, type: 3}
+  - {fileID: 3048285793406698071, guid: 9420d0ff77d40a44ab83d82be32a4449, type: 3}
+  - {fileID: 713883784134348179, guid: ad9f833c34110f144a396f26ab54400b, type: 3}
+  - {fileID: 713883784134348179, guid: ad9f833c34110f144a396f26ab54400b, type: 3}
+  - {fileID: -5444865970741087908, guid: 7758e822bfa1fe1448247d4e15cd603d, type: 3}
 --- !u!1 &1899670731
 GameObject:
   m_ObjectHideFlags: 0
@@ -9157,7 +9393,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 975068399}
-  m_Father: {fileID: 1572793482}
+  m_Father: {fileID: 394429567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9385,7 +9621,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1921940537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371634618}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1921940537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9562,7 +9810,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1925771528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1925771528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9904,7 +10164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2086006942}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394429568}
+        m_TargetAssemblyTypeName: FadeIn, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2086006942
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,12 +1,12 @@
-Herään __________ aamuun, ja päätän lähteä uimarannalle.;
-Ensin minun täytyy kuitenkin ___________.;
-Sen jälkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, _______ ja välipalaa.;
-Välipalaksi otan __________.;
-Rannalle on lyhyt matka. Päätän mennä sinne __________.;
-Ennen lähtöä kysyn vielä, lähtisikö ________ mukaani.;
-Saavumme rannalle. Huomaamme heti, että siellä on paljon ___________.;
-Löydämme kuitenkin paikan _____________.;
-Jätämme tavaramme paikallemme ja lähdemme __________.;
-Välillä _______ ja syömme välipalaa.;
-Meillä on hauskaa! Aika kuluu nopeasti, ja yhtäkkiä olemme olleet rannalla ______________.;
-Päätän kysyä: ”Olisiko jo aika lähteä ________?”
+Herään <u><color="white">_______</color></u> aamuun, ja päätän lähteä uimarannalle.;
+Ensin minun täytyy kuitenkin <u><color="white">_______</color></u>.;
+Sen jälkeen pakkaan reppuni. Tarvitsen mukaani ainakin uimapuvun, <u><color="white">_______</color></u> ja välipalaa.;
+Välipalaksi otan <u><color="white">_______</color></u>.;
+Rannalle on lyhyt matka. Päätän mennä sinne <u><color="white">_______</color></u>.;
+Ennen lähtöä kysyn vielä, lähtisikö <u><color="white">_______</color></u> mukaani.;
+Saavumme rannalle. Huomaamme heti, että siellä on paljon <u><color="white">_______</color></u>.;
+Löydämme kuitenkin paikan <u><color="white">_______</color></u>.;
+Jätämme tavaramme paikallemme ja lähdemme <u><color="white">_______</color></u>.;
+Välillä <u><color="white">_______</color></u> ja syömme välipalaa.;
+Meillä on hauskaa! Aika kuluu nopeasti, ja yhtäkkiä olemme olleet rannalla <u><color="white">_______</color></u>.;
+Päätän kysyä: ”Olisiko jo aika lähteä <u><color="white">_______</color></u>?”
