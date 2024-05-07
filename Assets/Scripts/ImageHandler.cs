@@ -8,17 +8,10 @@ using Image = UnityEngine.UI.Image;
 public class ImageHandler : MonoBehaviour
 
 {
-    public static ImageHandler instance;
 
     public Image imageObject;
     public GameObject answers;
     public List<Sprite> imgs = new();
-
-
-    public void Awake()
-    {
-        instance = this;
-    }
 
     public void Start()
     {
