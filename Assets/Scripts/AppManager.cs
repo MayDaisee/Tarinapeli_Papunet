@@ -25,4 +25,18 @@ public class AppManager : MonoBehaviour
         Application.Quit();
 #endif
     }
+    public void Taso1()
+    {
+        SceneManager.LoadScene("Taso1");
+    }
+
+    public void Taso2()
+    {
+        SceneManager.LoadScene("Taso2");
+    }
+
+    public void Taso3()
+    {
+        SceneManager.LoadScene("Taso3");
+    }
 }
