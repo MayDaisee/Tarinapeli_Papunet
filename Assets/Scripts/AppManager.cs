@@ -11,7 +11,7 @@ public class AppManager : MonoBehaviour
     {
 
         print("Restarting");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("MainMenu");
 
     }
 
