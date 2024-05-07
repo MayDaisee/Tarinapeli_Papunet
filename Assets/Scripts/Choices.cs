@@ -27,7 +27,7 @@ public class Choices : MonoBehaviour
             button.onClick.AddListener(() => AddToChoices(choice.text));
             button.onClick.AddListener(() => TextChange());
             //button.onClick.AddListener(() => BGChange());
-            button.onClick.AddListener(() => ImageHandler.instance.IMGChange());
+            //button.onClick.AddListener(() => ImageHandler.instance.IMGChange());
         }
     }
 

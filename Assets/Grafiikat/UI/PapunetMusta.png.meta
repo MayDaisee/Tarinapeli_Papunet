@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -274,7 +287,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PapunetMusta_0: -8990657792410204488
+      PapunetMusta_1: 7533652499417850195
+      PapunetMusta_2: -5088988134848617340
+      PapunetMusta_3: -8185766848103458678
+      PapunetMusta_4: 641472475765371217
+      PapunetMusta_5: 7893489743594972712
+      PapunetMusta_6: -1025802747375515836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

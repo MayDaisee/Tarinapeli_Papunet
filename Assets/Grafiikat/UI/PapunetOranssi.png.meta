@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -274,7 +287,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PapunetOranssi_0: -2972631837338467000
+      PapunetOranssi_1: 2460173791867126923
+      PapunetOranssi_2: -4743287763080705918
+      PapunetOranssi_3: -1749461311782531029
+      PapunetOranssi_4: 210132934657051144
+      PapunetOranssi_5: 4628588912866835729
+      PapunetOranssi_6: -733365637051336480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
