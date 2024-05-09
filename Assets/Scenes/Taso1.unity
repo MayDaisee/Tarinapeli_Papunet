@@ -1760,13 +1760,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c1e127ba7121e9a4daaef53ba8cc4ea3, type: 3}
   - {fileID: 21300000, guid: 14652d42cccce264db6f5410f94ad717, type: 3}
   - {fileID: 21300000, guid: 9fd02c2268d9d0d46a2512fb7caa8af5, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: f2f49055528bf4bd8a3c2705e9504663, type: 3}
   - {fileID: 21300000, guid: 67972c39185c16e4a924a3574187d809, type: 3}
   - {fileID: 21300000, guid: 8e4d51af1254a7b4b8905c8b019e9c78, type: 3}
   - {fileID: 21300000, guid: de0c0255a5bab204490e5b3f68ad1494, type: 3}
   - {fileID: 21300000, guid: b87666a7a5fe649aa8923299a6e287cf, type: 3}
   - {fileID: 21300000, guid: 898e91e36a36487448a885e3a97a4e98, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 758098ebd3cf84889a1126a5f7bbcc9d, type: 3}
   - {fileID: 0}
 --- !u!95 &304065369
 Animator:
@@ -2317,7 +2317,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 294f2573b5dcfab45916bb90c6fb25dd, type: 3}
   - {fileID: 21300000, guid: bcecbc8102a2f6b4da4c3d45b5c95859, type: 3}
   - {fileID: 21300000, guid: 7a3410ed98085c64bbc35e03ca9f796d, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 47c9f46f3c0e14fe8ba81d4784907cc4, type: 3}
   - {fileID: 21300000, guid: 40a8e1d46e798425f9a1f76b4686e1d6, type: 3}
   - {fileID: 21300000, guid: 7e5c971f73c05ef4ba04cd079a7cb052, type: 3}
   - {fileID: 21300000, guid: 92e62f4ef16f7f14a85045e2a9900d2d, type: 3}
@@ -2759,13 +2759,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58027736a13c45a4b963116e4ad8aa3d, type: 3}
   - {fileID: 21300000, guid: 05006a754b84f0e42baaf1c676834704, type: 3}
   - {fileID: 21300000, guid: 4ef58ef033235f74fb44a194417bc2ea, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: c11118e569c0b497b8462bdf80456d5c, type: 3}
   - {fileID: 21300000, guid: 29bf703e6b305b74888788380bf87f0e, type: 3}
   - {fileID: 21300000, guid: 1fcf66744d95ec54baa4e95b203df4f9, type: 3}
   - {fileID: 21300000, guid: 8b7fde177bb194798b6bbc659a1e1c8c, type: 3}
   - {fileID: 21300000, guid: cde8ab765f8501d4883fb4cbf94ccdea, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 3affc7f8fb8634558b772cb949a5c4e0, type: 3}
+  - {fileID: 21300000, guid: 3d9939ab6f25e463ca9dbbf37145f0e5, type: 3}
 --- !u!95 &414233498
 Animator:
   serializedVersion: 7
@@ -2963,8 +2963,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6458e456839807e4589c4876422e795f, type: 3}
   - {fileID: 21300000, guid: 5401441d7aa1fb44cb460be53c2243a3, type: 3}
   - {fileID: 21300000, guid: 6ad983181bf5a48d78bb76242c427396, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: ef32007c53aa54a4bb92d53da1ca49bf, type: 3}
+  - {fileID: 21300000, guid: 6a592afbf68f04054ab4c1219b1f9ffb, type: 3}
   - {fileID: 0}
 --- !u!95 &426732899
 Animator:
@@ -7877,92 +7877,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346300642}
   m_CullTransparentMesh: 1
---- !u!1 &1374468880
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1374468882}
-  - component: {fileID: 1374468881}
-  m_Layer: 0
-  m_Name: bg_ui_button_shadow_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1374468881
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374468880}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -6113976184250952828, guid: 949b682a7944e44cfa766ce1f70dd04a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.8, y: 1.79}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1374468882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374468880}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 117.84302, y: 282.64786, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393064452
 GameObject:
   m_ObjectHideFlags: 0
@@ -9787,8 +9701,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4f6aa31a7bd023441884500abd591060, type: 3}
   - {fileID: 21300000, guid: 9f4db62c078cd484bbed4d8f3797c54a, type: 3}
   - {fileID: 21300000, guid: 4454dfe78480fd74f930f7583c75c5a2, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 862a3aa81fa1842d0bdd0972a9f2d8e5, type: 3}
+  - {fileID: 21300000, guid: 8d417802978cf4826aa5ddb5af490387, type: 3}
 --- !u!95 &1746326685
 Animator:
   serializedVersion: 7
@@ -10380,9 +10294,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 57b60b898a9a6e44d85616ec707dbaec, type: 3}
   - {fileID: 21300000, guid: 0aa2f537bcaa32b45a1d1bf0068db2d7, type: 3}
   - {fileID: 21300000, guid: b3ddb161f05414fdfb5625e708a14c11, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2ee9f20063b1b46d696239dcad72aa3e, type: 3}
   - {fileID: 21300000, guid: 42e3ad74e873eeb4693f39912443174c, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 36d7fcb2ffd8e45feae3a44924b74bb0, type: 3}
 --- !u!95 &1921940541
 Animator:
   serializedVersion: 7
@@ -11155,4 +11069,3 @@ SceneRoots:
   - {fileID: 1477974464}
   - {fileID: 580973179}
   - {fileID: 282999825}
-  - {fileID: 1374468882}
