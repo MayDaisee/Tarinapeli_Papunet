@@ -7,7 +7,7 @@ using UnityEngine.UIElements.Experimental;
 
 public enum Tarina
 {
-    ranta, keskiyö, syksy, leipuri
+    ranta, keskiyö, syksy, leipuri, ranta2, keskiyö2
 }
 
 public class Results : MonoBehaviour
@@ -47,6 +47,16 @@ public class Results : MonoBehaviour
         if (tarina == Tarina.leipuri)
         {
             Leipuri();
+        }
+
+        if (tarina == Tarina.ranta2)
+        {
+            Ranta2();
+        }
+
+        if (tarina == Tarina.keskiyö2)
+        {
+            Keskiyö2();
         }
     }
 
@@ -125,8 +135,8 @@ public class Results : MonoBehaviour
 
             resultTXT.text =
             "Keittiössä kököttää kekseliäs leipuri,\nmaailman makeimpien herkkujen " + choices[0] + ".\n\n" +
-            "Mitä seuraavaksi leipoisin?\nMistä herkkusuille " + choices[1] + ".\n\n" + 
-            "Leipoisinko keksin suklaisen\nvai kuppikakun " + choices[2] + ".\n\n\n" + 
+            "Mitä seuraavaksi leipoisin?\nMistä herkkusuille " + choices[1] + ".\n\n" +
+            "Leipoisinko keksin suklaisen\nvai kuppikakun " + choices[2] + ".\n\n\n" +
             "Leipuri keksii idean:\n”Teen kakun oikein " + choices[3] + "\".\n\n" +
             "Sokeria, munia, jauhoja,\nvoita, marenkia, " + choices[4] + ".\n\n" +
             "Oikein paljon kerroksia,\nripaus rakkautta ja " + choices[5] + ".\n\n" +
@@ -135,5 +145,50 @@ public class Results : MonoBehaviour
 
         }
 
+    }
+
+    public void Ranta2()
+    {
+
+        List<string> choices = Choices.instance.choices;
+
+        for (int i = 0; i < choices.Count; i++)
+        {
+
+            resultTXT.text =
+            "Herään aurinkoiseen aamuun,\nja päätän lähteä " + choices[0] + ".\nEnsin minun täytyy kuitenkin syödä aamupala.\n\n" +
+            "Sen jälkeen pakkaan reppuni.\nTarvitsen mukaani ainakin " + choices[1] + ", pyyhkeen ja välipalaa.\n" +
+            "Välipalaksi otan " + choices[2] + ".\n\n" +
+            choices[3] + " on lyhyt matka. Päätän mennä sinne kävellen.\n" +
+            "Ennen " + choices[4] + " kysyn vielä, lähtisikö ystäväni mukaani.\n" +
+            "Saavumme rannalle.\nHuomaamme heti, että siellä on paljon " + choices[5] + ".\n" +
+            "Löydämme kuitenkin paikan suuren puun " + choices[6] + ".\n\n" +
+            "Jätämme tavaramme paikallemme ja lähdemme " + choices[7] + ".\n" +
+            "Välillä lepäämme ja syömme " + choices[8] + ".\n\n" +
+            "Meillä on hauskaa!\nAika kuluu nopeasti,ja yhtäkkiä olemme olleet " + choices[9] + " neljä tuntia." +
+            "Päätän kysyä: ”Olisiko jo aika lähteä " + choices[10] + "?”";
+
+        }
+    }
+
+    public void Keskiyö2()
+    {
+
+        List<string> choices = Choices.instance.choices;
+
+        for (int i = 0; i < choices.Count; i++)
+        {
+
+            resultTXT.text =
+            "Olipa kerran hylätty talo " + choices[0] + " syrjäisessä kylässä.\n" +
+            "Talo oli vanha ja ränsistynyt.\nSen seinistä kasvoi " + choices[1] + ".\n\n" +
+            "Huhujen mukaan " + choices[2] + " oli asunut noitia sata vuotta sitten.\n" +
+            "Sen jälkeen siellä oli asunut eräs " + choices[3] + "\nmutta talo oli ollut tyhjillään jo vuosia.\n\n" +
+            "Vaikka talo oli tyhjä, se ei ollut hiljainen.\nAina keskiyöllä talosta kuului " + choices[4] + " kolinaa.\n\n" +
+            "Keskiyön kauheudet vetivät ihmisiä puoleensa,\nja eräänä yönä joukko nuoria kokoontui hylätyllä talolla.\n" + choices[5] + " olivat peloissaan, kun he odottivat keskiyötä.\n\n" +
+            "Viimein kello löi kaksitoista.\nÄänet alkoivat kuulua, ja " + choices[6] + " nousi savua.\n\n" +
+            "Yksi " + choices[7] + " kurkisti sisään ja sanoi kavereilleen:\n”Ette ikinä usko, mutta talossa on kummitus.”";
+
+        }
     }
 }

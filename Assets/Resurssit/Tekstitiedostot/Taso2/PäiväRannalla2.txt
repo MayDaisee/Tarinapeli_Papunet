@@ -1,15 +1,12 @@
 
-Herään aurinkoiseen aamuun, ja päätän lähteä <u><color="white">_______</color></u>.\n
-Ensin minun täytyy kuitenkin syödä aamupala.;
-Sen jälkeen pakkaan reppuni.\n
-Tarvitsen mukaani ainakin <u><color="white">_______</color></u>, pyyhkeen ja välipalaa; 
+Herään aurinkoiseen aamuun,\nja päätän lähteä <u><color="white">_______</color></u>.\nEnsin minun täytyy kuitenkin syödä aamupala.;
+Sen jälkeen pakkaan reppuni.\nTarvitsen mukaani ainakin <u><color="white">_______</color></u>,\npyyhkeen ja välipalaa; 
 Välipalaksi otan <u><color="white">_______</color></u>.;
-<u><color="white">_______</color></u> on lyhyt matka. Päätän mennä sinne kävellen.;
-Ennen <u><color="white">_______</color></u> kysyn vielä, lähtisikö ystäväni mukaani.;
+<u><color="white">_______</color></u> on lyhyt matka.\nPäätän mennä sinne kävellen.;
+Ennen <u><color="white">_______</color></u> kysyn vielä,\nlähtisikö ystäväni mukaani.;
 Saavumme rannalle.\nHuomaamme heti, että siellä on paljon <u><color="white">_______</color></u>.;
 Löydämme kuitenkin paikan suuren puun <u><color="white">_______</color></u>.;
-Jätämme tavaramme paikallemme ja lähdemme <u><color="white">_______</color></u>.;
+Jätämme tavaramme paikallemme\nja lähdemme <u><color="white">_______</color></u>.;
 Välillä lepäämme ja syömme <u><color="white">_______</color></u>.;
-Meillä on hauskaa!\n
-Aika kuluu nopeasti,\nja yhtäkkiä olemme olleet <u><color="white">_______</color></u> neljä tuntia.;
+Meillä on hauskaa!\nAika kuluu nopeasti,\nja yhtäkkiä olemme olleet <u><color="white">_______</color></u> neljä tuntia.;
 Päätän kysyä: ”Olisiko jo aika lähteä <u><color="white">_______</color></u>?”
