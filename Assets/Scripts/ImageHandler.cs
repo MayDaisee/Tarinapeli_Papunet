@@ -28,12 +28,9 @@ public class ImageHandler : MonoBehaviour
 
     public void IMGUpdate()
     {
-        print("nyt jysähti update");
         if (imgs.Count > 0)
         {
-            print("Jee kuvia oli yli 0!");
             imageObject.sprite = imgs[0];
-            print(imageObject.sprite);
         }
 
         else
@@ -44,16 +41,10 @@ public class ImageHandler : MonoBehaviour
 
     public void IMGChange()
     {
-        print("pärähti nappula");
         if (imgs.Count > 1)
-        {
-            print("tuhoamme kuvan! :DDD");
-            print(imgs.Count);
+        { 
             imgs.RemoveAt(0);
-            print("hehe" + imgs.Count);
-            print("Kuvat tuhottu >:)))");
             IMGUpdate();
-            
         }
         
     }

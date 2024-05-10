@@ -39,4 +39,19 @@ public class AppManager : MonoBehaviour
     {
         SceneManager.LoadScene("Taso3");
     }
+
+    public void DoPlayMusic()
+    {
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicPlayer>().PlayMusic();
+    }
+
+    public void DoStopMusic()
+    {
+        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicPlayer>().StopMusic();
+    }
+
+    public void RemoveInstance()
+    {
+        MusicPlayer.instance.RemoveThis();
+    }
 }
