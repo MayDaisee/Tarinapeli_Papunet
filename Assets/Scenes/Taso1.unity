@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 1951576}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 3431508}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1631,7 +1631,7 @@ GameObject:
   - component: {fileID: 179173979}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 181608887}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 192599411}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 278607602}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4063,7 +4063,7 @@ GameObject:
   - component: {fileID: 434144261}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4138,7 +4138,7 @@ GameObject:
   - component: {fileID: 444509816}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4563,7 +4563,7 @@ GameObject:
   - component: {fileID: 501811410}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5576,7 +5576,7 @@ GameObject:
   - component: {fileID: 601917564}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6512,7 +6512,7 @@ GameObject:
   - component: {fileID: 668916383}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6879,7 +6879,7 @@ GameObject:
   - component: {fileID: 742240477}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7195,6 +7195,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 580973180}
+        m_TargetAssemblyTypeName: AppManager, Assembly-CSharp
+        m_MethodName: RemoveInstance
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &786270580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7343,7 +7355,7 @@ GameObject:
   - component: {fileID: 800684099}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8028,7 +8040,7 @@ GameObject:
   - component: {fileID: 888565970}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8103,7 +8115,7 @@ GameObject:
   - component: {fileID: 894407352}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8253,7 +8265,7 @@ GameObject:
   - component: {fileID: 948443363}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8474,7 +8486,7 @@ GameObject:
   - component: {fileID: 1037109056}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9378,7 +9390,7 @@ GameObject:
   - component: {fileID: 1200032574}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10045,7 +10057,7 @@ GameObject:
   - component: {fileID: 1366707657}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10874,7 +10886,7 @@ GameObject:
   - component: {fileID: 1553191133}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11327,7 +11339,7 @@ GameObject:
   - component: {fileID: 1647111090}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11538,7 +11550,7 @@ GameObject:
   - component: {fileID: 1705928171}
   m_Layer: 5
   m_Name: BTNBackground
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12192,6 +12204,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 580973180}
+        m_TargetAssemblyTypeName: AppManager, Assembly-CSharp
+        m_MethodName: RemoveInstance
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1750512519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12621,7 +12645,7 @@ GameObject:
   - component: {fileID: 1855647520}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13958,7 +13982,7 @@ GameObject:
   - component: {fileID: 2109235190}
   m_Layer: 5
   m_Name: BTNShadow
-  m_TagString: Reader
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
