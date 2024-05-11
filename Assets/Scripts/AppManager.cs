@@ -20,7 +20,7 @@ public class AppManager : MonoBehaviour
 #if (UNITY_EDITOR)
         UnityEditor.EditorApplication.isPlaying = false;
 #elif (UNITY_WEBGL)
-        Application.OpenURL("https://users.metropolia.fi/~mayn/");
+        Application.OpenURL("https://web.papunet.net/pelit/");
 #elif (UNITY_STANDALONE)
         Application.Quit();
 #endif
